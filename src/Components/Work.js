@@ -1,34 +1,42 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
+import PickMeals from "../Assets/emptyBed.png";
 import ChooseMeals from "../Assets/choose-image.png";
 import DeliveryMeals from "../Assets/delivery-image.png";
+import WaterTap from "../Assets/tap.png";
+import WIfi from "../Assets/Wi-Fi.png";
+import Kichen from "../Assets/Microwave.png";
 
 const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Spacious Rooms",
+      text: "Comfortable rooms, essential amenities, privacy, and tranquility for residents. Dedicated study areas for focused academics.",
     },
     {
-      image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: WIfi,
+      title: "High Speed WiFi",
+      text: "Seamless high-speed WiFi accessible throughout the entire building",
     },
     {
-      image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: WaterTap,
+      title: "24/7 Water Supply",
+      text: "We recognize the significance of consistent water supply and guarantee uninterrupted availability throughout the premises.",
     },
+    {
+      image: Kichen,
+      title: "Fully Equipped Kitchen",
+      text: "Additionally, we offer a fully equipped cooking area where residents can prepare their own meals.",
+    }
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
+        <p className="primary-subheading">Eswa's Distinctive Offerings
+</p>
+        <h1 className="primary-heading">Amenities</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Premier Amenities at Eswa
         </p>
       </div>
       <div className="work-section-bottom">

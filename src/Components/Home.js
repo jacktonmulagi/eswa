@@ -1,6 +1,6 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+import BannerImage from "../Assets/hero.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -13,15 +13,14 @@ const Home = () => {
           <img src={BannerBackground} alt="" />
         </div>
         <div className="home-text-section">
-          <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
-          </h1>
+          <h1 className="primary-heading">Your Home Away from Home</h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Embark on an Extraordinary Student Journey in Nairobi: Where
+            Comfortable Accommodation, Thriving Community, and Unbeatable
+            Convenience Converge to Redefine Your University Experience!"
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Book Now <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">

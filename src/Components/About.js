@@ -10,20 +10,18 @@ const About = () => {
         <img src={AboutBackground} alt="" />
       </div>
       <div className="about-section-image-container">
-        <img src={AboutBackgroundImage} alt="" />
+        <img src={AboutBackgroundImage} alt="" height={100} width={650} />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">About us</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Behind the Scenes: Where Comfort and Learning Converge
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Secure haven in Nyayo Highrise Estate, offering comfortable accommodation for female students from Nairobi's institutions.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Blend of convenience and community support, fostering focused studying for enhanced academic journeys. Join us today!
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
