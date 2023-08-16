@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>0700309590</span>
+          <span>0708693796</span>
           <span>hello@eswa.com</span>
           <span>hello@eswa.com</span>
           <span>hello@eswa.com</span>
