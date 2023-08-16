@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../Assets/john-doe-image.png";
+import ProfilePic from "../Assets/user.png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -15,7 +15,7 @@ const Testimonial = () => {
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-        The seamless experience at Eswa made my stay memorable. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        The seamless experience at Eswa made my stay memorable. I would recommend it to anyone looking for a place to stay in Nairobi.
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
