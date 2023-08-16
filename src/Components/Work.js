@@ -1,7 +1,5 @@
 import React from "react";
 import PickMeals from "../Assets/emptyBed.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
 import WaterTap from "../Assets/tap.png";
 import WIfi from "../Assets/Wi-Fi.png";
 import Kichen from "../Assets/Microwave.png";
