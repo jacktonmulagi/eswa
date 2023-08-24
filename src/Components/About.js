@@ -18,10 +18,12 @@ const About = () => {
           Behind the Scenes: Where Comfort and Learning Converge
         </h1>
         <p className="primary-text">
-        Secure haven in Nyayo Highrise Estate, offering comfortable accommodation for female students from Nairobi's institutions.
+          Secure hostel in Nyayo Highrise Estate, offering comfortable
+          accommodation for female students from Nairobi's institutions.
         </p>
         <p className="primary-text">
-        Blend of convenience and community support, fostering focused studying for enhanced academic journeys. Join us today!
+          Blend of convenience and community support, fostering focused studying
+          for enhanced academic journeys. Join us today!
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
